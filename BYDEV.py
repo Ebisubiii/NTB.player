@@ -37,7 +37,7 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage =""" [R.A] BOT Menu V.2  􀔃􀄆red check mark􏿿
+helpMessage =""" ZEUS BOT 􀔃􀄆red check mark􏿿
 
 􀔃􀅕red arrow right􏿿 Command Public
 [Bot?]     Cek Akun Bot
@@ -66,7 +66,7 @@ helpMessage =""" [R.A] BOT Menu V.2  􀔃􀄆red check mark􏿿
 [All join] Invite Semua Bot
 [_namabot join] Invite Bot
 [Bye _namabot]  Leave Bot
-SSH BY DEVAABN line.me/ti/p/~devaabn
+SSH BY JOSHUA line.me/ti/p/~devaabn
 """
 
 Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
@@ -74,7 +74,7 @@ Setgroup =""" Privasi Menu V.1 􀔃􀄆red check mark􏿿
 [Protect QR -- Qr on / off]
 [Mid Via Contact -- Contact On / Off]
 [Reject Invite -- Guest On / Off]
-SSH BY DEVAABN line.me/ti/p/~devaabn
+SSH BY JOSHUA line.me/ti/p/joshuasiregaar
 """
 KAC=[cl,ki,kk,kc]
 mid = cl.getProfile().mid
