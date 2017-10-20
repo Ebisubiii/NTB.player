@@ -96,7 +96,7 @@ wait = {
     'leaveRoom':True,
     'timeline':True,
     'autoAdd':False,
-    'message':"OPEN
+    'message':OPEN
 Penyewaan Bot Protect
 
 Harga Bisa Chat Ya :)
