@@ -6,60 +6,57 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
 cl = LINETCR.LINE()
-cl.login(token='Els8nCB8fneMKHZr37F6.p3q4xhPrOgDXJ/23Wu9xrG.zHqgQdiw6glWERSv25iy90I4drqerU3KBSUecBDy+Hg=')
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
-ki.login(token='El4946s5oo3Hce0WjzP6.qXTD/U9pV2sS6GXV7uaSrG.yvl+h+2CiX+1Cm4dtufFZnBALTX8eTeoBVi3k/afVF8=')
+ki.login(qr=True)
 ki.loginResult()
 
 ki2 = LINETCR.LINE()
-ki2.login(token='Eljmig046zEl0z8ETWr3.FKHj4TZ0cE0D3s1XT7FM8W.BhiUBaa3eCs/6uSA8Ox3BDsVTFFvx/84KIBxuHf1VK0=')
+ki2.login(qr=True)
 ki2.loginResult()
 
 ki3 = LINETCR.LINE()
-ki3.login(token='ElH6GKgjTyITKLJlNiLb.Z0/HuJAY8hX+9Mwq7qR2wW.OHJHR46NWeadbBBgybFzFO1RF+iXCN6uTUxrlcV2HaM=')
+ki3.login(qr=True)
 ki3.loginResult()
 
 ki4 = LINETCR.LINE()
-ki4.login(token='ElcRugGtdyHpERXt7Jga.o4lvSE9UgAT11oz0Npme6G.gMvWkzoth4E6YbeqeBYX0THcnSKDsN6MM5eJRJff7h4=')
+ki4.login(qr=True)
 ki4.loginResult()
 
 ki5 = LINETCR.LINE()
-ki5.login(token='ElIiPv4jOy2wmlSTxv45.ovqlCVGWM9wqwxQ69uoTbq.OI/VskSEAkdCH1KVVk7GrItxSNBVNRBXhT41jxXoRQQ=')
+ki5.login(qr=True)
 ki5.loginResult()
 
 ki6 = LINETCR.LINE()
-ki6.login(token='Elus5ATjLuoRwmnP9Yi9.rhpvHK0M0H7vNqQlQaB+Mq.tM5sHK2UaM9pWooMDACB25GSpt0l/WYFBWk/+TCCQRU=')
+ki6.login(qr=True)
 ki6.loginResult()
 
-print "login success"
+print "===[Login Sukses]==="
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 helpMessage ="""» мүsтнιc bot command «
 
-👉 PUBLIC COMMAND
+===[CΩMMΔΠD ҒΩR CRΣΔTΩR]===
 
-[Bot?]     Cek Akun Bot
-[Jam update] Update Jam
-[Id Group] Cek Id Group
-[Ginfo]    Group Info
-[Mid all]   Cek All mid Bot
-[BOT 1/2/3/4] Cek Mid Bot
-[Respon]   Cek Respon Bot
-[Speedbot] Cek Kecepatan Bot
-[Up]       Fungsi Spam Chat
-[Banlist]  Cek List Akun Banned
-[Gn namagroup] Ganti Nama Group
-[Cancel] Cancel User Masuk Group
-[Tag All]      Mention Semua User
-[Set View] Cek Privasi Group
+► Bot?     Cek Akun Bot
+► Jam update Update Jam
+► Id Group Cek Id Group
+► Ginfo    Group Info
+► Mid all   Cek All mid Bot
+►BOT 1/2/3/4 Cek Mid Bot
+► Respon   Cek Respon Bot
+► Speedbot Cek Kecepatan Bot
+► Up       Fungsi Spam Chat
+► Banlist  Cek List Akun Banned
+► Gn Ganti Nama Group
+► Cancel Cancel User Masuk Group
+► Tag All      Mention Semua User
+[Set View Cek Privasi Group
 [Ourl]  Membuka Url Group
 [Curl] Menutup Url Group
-
-􀔃􀅕👉PRIVATE COMMAND
-
 [SetGroup] Menggatur Privasi Grup
 [Banned @] Bann Target
 [Unban @]  Unbann Target
@@ -71,7 +68,7 @@ helpMessage ="""» мүsтнιc bot command «
 SSH by мүsтнιc line.me/ti/p/~mysthic21
 """
 
-Setgroup =""" MODE PROTECT GROUP
+Setgroup =""" [N̲̅][T̲̅][B̲̅] [B̲̅][O̲̅][T̲̅]
 
 [Protect QR -- Qr on / off]
 [Mid Via Contact -- Contact On / Off]
@@ -88,7 +85,7 @@ Dmid = ki4.getProfile().mid
 Emid = ki5.getProfile().mid
 Fmid = ki6.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,","]
-admin=["ua6cc2bfe8e9808aabff052aaeb98d5cd"]
+admin=["uc77fd25b59f6e563d84f1334f3fed10b"]
 wait = {
     'contact':True,
     'autoJoin':True,
@@ -108,13 +105,13 @@ By мүsтнιc line.me/ti/p/~mysthic21",
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName2":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName3":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName4":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName5":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName6":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
-    "cName7":"мүsтнιc ᴘʀᴏᴛᴇᴄᴛ ",
+    "cName":"BII ",
+    "cName2":"NTB Assist ",
+    "cName3":"NTB Assist ",
+    "cName4":"NTB Assist ",
+    "cName5":"NTB Assist ",
+    "cName6":"NTB Assist ",
+    "cName7":"NTB Assist ",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":True,
@@ -1416,7 +1413,7 @@ def bot(op):
                 else: 
                     cl.sendText("Mau lompat eaa")
                 
-            elif msg.text in ["Set View"]:
+            elif msg.text in ["Cek"]:
                 md = ""
                 if wait["Protectcancel"] == True: md+=" Protect Cancel : on\n"
                 else: md+=" Protect Cancel : off\n"
@@ -1741,7 +1738,7 @@ def bot(op):
 			
 #------------------------------------------------
 
-            elif msg.text in ["Sayang"]:
+            elif msg.text in ["Come"]:
             	    if msg.from_ in admin:
                         G = cl.getGroup(msg.to)
                         ginfo = cl.getGroup(msg.to)
